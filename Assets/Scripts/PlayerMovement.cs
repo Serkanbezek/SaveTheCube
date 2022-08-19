@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     {
         cam = Camera.main;
         tl = GetComponent<TrajectoryLine>();
+        Rb = GetComponent<Rigidbody2D>();
     }
     private void Update()
     {

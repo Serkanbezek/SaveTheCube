@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   power: 3
   vectorPowerLimit: 4
-  Rb: {fileID: 5181445003053305604}
+  Rb: {fileID: 0}
 --- !u!120 &5181445003053305607
 LineRenderer:
   m_ObjectHideFlags: 0

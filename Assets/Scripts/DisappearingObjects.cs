@@ -6,7 +6,7 @@ public class DisappearingObjects : MonoBehaviour
 {
     public SpriteRenderer SpriteRenderer;
     public Collider2D ObjectCollider;
-    public bool Enabled = true;
+    public bool Enabled;
     private float currentTime = 0;
     [SerializeField] private float timeToToggleObject = 2;
 
@@ -14,7 +14,6 @@ public class DisappearingObjects : MonoBehaviour
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
         ObjectCollider = GetComponent<Collider2D>();
-        Enabled = true;
     }
 
     private void Update()
