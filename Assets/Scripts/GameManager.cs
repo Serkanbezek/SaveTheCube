@@ -9,7 +9,7 @@ public class GameManager : Singleton<GameManager>
 
     private void Start()
     {
-        Application.targetFrameRate = -1;
+        Application.targetFrameRate = 60;
     }
     private void OnEnable()
     {

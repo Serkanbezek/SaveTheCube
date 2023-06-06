@@ -15,7 +15,6 @@ public class TypeWriterUI : MonoBehaviour
 	[SerializeField] string leadingChar = "";
 	[SerializeField] bool leadingCharBeforeDelay = false;
 
-	// Use this for initialization
 	void Start()
 	{
 		_text = GetComponent<Text>()!;
